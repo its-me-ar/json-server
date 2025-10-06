@@ -1,0 +1,17 @@
+{
+  "name": "work-nest-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prestart": "node generate-tokens.js",
+    "start": "json-server --watch src/db.json --port 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

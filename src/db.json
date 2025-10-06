@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "admin123",
+      "role": "admin",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImFkbWluQHRlc3QuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzU5NzUxNTA1LCJleHAiOjE3NjAzNTYzMDV9.rzYboiIoND7U2AqCp1UkYuvemTZgUetxweRQedY1On4"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "user123",
+      "role": "user",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJlbWFpbCI6InVzZXJAdGVzdC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc1OTc1MTUwNSwiZXhwIjoxNzYwMzU2MzA1fQ.TQzMm7FqcUQbxUYFFPmP5D6hCzhV-E6J-1orANYKNKI"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "7ee8",
+      "title": "Learn Angular",
+      "completed": true,
+      "userId": 1
+    },
+    {
+      "id": "dc0b",
+      "title": "Build fake backend",
+      "completed": true,
+      "userId": "1"
+    },
+    {
+      "id": "0af5",
+      "title": "dfds",
+      "completed": true,
+      "userId": "1"
+    },
+    {
+      "id": "bfee",
+      "title": "sadhsd",
+      "completed": true,
+      "userId": 1
+    },
+    {
+      "id": "f753",
+      "title": "sfsdf",
+      "completed": true,
+      "userId": "2"
+    },
+    {
+      "id": "8e1f",
+      "title": "sdfds",
+      "completed": true,
+      "userId": "2"
+    },
+    {
+      "id": "8ce4",
+      "title": "dfdsf",
+      "completed": true,
+      "userId": "2"
+    },
+    {
+      "id": "93d2",
+      "title": "sdfds",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "108e",
+      "title": "sdfgydsj",
+      "completed": true,
+      "userId": "1"
+    },
+    {
+      "id": "0cf4",
+      "title": "esrdtfyguhijop",
+      "completed": true,
+      "userId": "1"
+    },
+    {
+      "id": "89ed",
+      "title": "safsdf",
+      "completed": true,
+      "userId": "1"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "329e",
+      "fromDate": "2025-10-03",
+      "toDate": "2025-10-03",
+      "type": "Sick",
+      "reason": "afdaf",
+      "status": "Approved",
+      "userId": "2"
+    },
+    {
+      "id": "af7c",
+      "fromDate": "2025-10-04",
+      "toDate": "2025-10-04",
+      "type": "Casual",
+      "reason": "safdsaf",
+      "status": "Rejected",
+      "userId": "2",
+      "rejectReason": "sdfdsf"
+    },
+    {
+      "id": "2b0f",
+      "fromDate": "2025-10-06",
+      "toDate": "2025-10-06",
+      "type": "Casual",
+      "reason": "asfdsfdsf",
+      "status": "Rejected",
+      "userId": "2",
+      "rejectReason": "asfdsf"
+    }
+  ]
+}
