@@ -5,14 +5,14 @@
       "email": "admin@test.com",
       "password": "admin123",
       "role": "admin",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImFkbWluQHRlc3QuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzU5NzUxNTA1LCJleHAiOjE3NjAzNTYzMDV9.rzYboiIoND7U2AqCp1UkYuvemTZgUetxweRQedY1On4"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImFkbWluQHRlc3QuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzU5OTAzOTExLCJleHAiOjE3NjA1MDg3MTF9.5JA0gek5PSLuphXUtOPwfJ5raoQa7ugBTgjfntmm2Es"
     },
     {
       "id": "2",
       "email": "user@test.com",
       "password": "user123",
       "role": "user",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJlbWFpbCI6InVzZXJAdGVzdC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc1OTc1MTUwNSwiZXhwIjoxNzYwMzU2MzA1fQ.TQzMm7FqcUQbxUYFFPmP5D6hCzhV-E6J-1orANYKNKI"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJlbWFpbCI6InVzZXJAdGVzdC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc1OTkwMzkxMSwiZXhwIjoxNzYwNTA4NzExfQ.Q8qT3MtsE0PsmYqdtKO_aB-2rz_SeSc38wjBGDDkeVM"
     }
   ],
   "tasks": [
@@ -81,6 +81,12 @@
       "title": "safsdf",
       "completed": true,
       "userId": "1"
+    },
+    {
+      "title": "sdfdsf",
+      "completed": true,
+      "userId": "1",
+      "id": "sJRDefX"
     }
   ],
   "leaves": [
@@ -112,6 +118,15 @@
       "status": "Rejected",
       "userId": "2",
       "rejectReason": "asfdsf"
+    },
+    {
+      "fromDate": "2025-10-08",
+      "toDate": "2025-10-08",
+      "type": "Sick",
+      "reason": "asfdsf",
+      "status": "Pending",
+      "userId": "1",
+      "id": "leuho2p"
     }
   ]
 }
